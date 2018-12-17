@@ -54,23 +54,24 @@ class IAuth {
 
         // diid=xx&app_type=3
         //parse_str 解开数组
-        parse_str($str,$arr);halt($arr);
+        parse_str($str,$arr);
 
         if(!is_array($arr) || empty($arr['did'])
             || $arr['did'] != $data['did']
         ) {
             return false;
         }
-//        if(!config('app_debug')) {
-//            if ((time() - ceil($arr['time'] / 1000)) > config('app.app_sign_time')) {
-//                return false;
-//            }
-//            //echo Cache::get($data['sign']);exit;
-//            // 唯一性判定
-//            if (Cache::get($data['sign'])) {
-//                return false;
-//            }
-//        }
+        if(!config('app_debug')) {
+            if ((time() - ceil($arr['time'] / 1000)) > config('app.app_sign_time')) {
+                return false;
+            }
+            //config('app.app_sign_time')
+            //echo Cache::get($data['sign']);exit;
+            // 唯一性判定
+            if (Cache::get($data['sign'])) {
+                return false;
+            }
+        }
         return true;
     }
 

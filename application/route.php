@@ -15,4 +15,9 @@ Route::get('test','api/test/index');
 Route::put('test/:id','api/test/update');
 Route::delete('test/:id', 'api/test/delete');
 
-Route::resource('test','api/test');
+//Route::resource('test','api/test');
+Route::resource('test/sms','api/test/sms');
+Route::get('api/cat','api/cat/read');
+
+//短信验证码
+Route::resource('api/register','api/register');

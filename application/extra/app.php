@@ -11,5 +11,7 @@ return [
     'apptypes' => [
         'ios',
         'android',
-    ]
+    ],
+    'app_sign_time' => 7776000,
+    'app_sign_cache_time' => 3, //sign缓存失效时间
 ];
