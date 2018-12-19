@@ -20,4 +20,7 @@ Route::resource('test/sms','api/test/sms');
 Route::get('api/cat','api/cat/read');
 
 //短信验证码
-Route::resource('api/register','api/register');
+Route::resource('api/sendsms','api/register');
+
+//登陆
+Route::post('api/login','api/login/save');

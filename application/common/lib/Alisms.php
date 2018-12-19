@@ -19,6 +19,9 @@ Config::load();
 
 class Alisms {
     private static $_instance = null;
+    const LOG_TPL = "Alidayu";
+
+
 
     private function __construct()
     {
@@ -33,9 +36,9 @@ class Alisms {
 
     //设置短信验证
     public function setSmsIdentify($mobile){
-        Log::write('set---sms-start');
+        Log::write(self::LOG_TPL.'set---sms-start');
         $code = array("code"=>rand(1000, 9999));
-
+        $cache_model = new Cache();
 
         try {
             //获取成员属性
@@ -77,18 +80,20 @@ class Alisms {
             $acsResponse = $acsClient->getAcsResponse($request);
         }catch (\Exception $e) {
             //设置验证码失效时间
-            Log::write("set-----".$e->getMessage());
+            Log::write(self::LOG_TPL."set-----".$e->getMessage());
             return false;
         }
 
-        if($acsResponse->Message === "OK"){
-            Cache::set($mobile, $code, config('aliyun.identify_time'));
-            return true;
-        }else{
-            Log::write('set----111'.json_encode($acsResponse));
-        }
 
-        return false;
+        Cache::set($mobile, $code, 6000);
+//        if($acsResponse->Message === "OK"){
+//            Cache::set($mobile, $code, 6000);
+//            return true;
+//        }else{
+//            Log::write(self::LOG_TPL.'set----111'.json_encode($acsResponse));
+//        }
+
+        return true;
     }
 
     /**

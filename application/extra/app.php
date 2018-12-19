@@ -14,4 +14,5 @@ return [
     ],
     'app_sign_time' => 7776000,
     'app_sign_cache_time' => 3, //sign缓存失效时间
+    'login_time_out_day' => 90, //登陆失效时间
 ];

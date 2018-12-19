@@ -1,0 +1,2007 @@
+---------------------------------------------------------------
+[ 2018-12-19T09:26:22+08:00 ] 0.0.0.0 POST localhost:8022/public/api/test/sms
+[运行时间：0.506289s] [吞吐率：1.98req/s] [内存消耗：2,137.87kb] [文件加载：65]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'sms',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '3fe2f9ae-265f-41c3-b0f0-c7c7d74aea23',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------367008334541118227079817',
+  'content-length' => '171',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903501111',
+)
+[ info ] [ RUN ] app\api\controller\Test->sms[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Test.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T09:34:25+08:00 ] 0.0.0.0 POST localhost:8022/public/api/test/testsend
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'testsend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a1e95dde-ef55-476e-9785-0054346555a8',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------955715412821315223268473',
+  'content-length' => '171',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903501111',
+)
+[ info ] [ RUN ] app\api\controller\Test->testsend[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Test.php ]
+[ log ] Alidayuset---sms-start
+---------------------------------------------------------------
+[ 2018-12-19T09:34:25+08:00 ] 0.0.0.0 POST localhost:8022/public/api/test/testsend
+[运行时间：0.317606s] [吞吐率：3.15req/s] [内存消耗：2,198.09kb] [文件加载：67]
+[ info ] [ CACHE ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T09:37:13+08:00 ] 0.0.0.0 POST localhost:8022/public/api/register
+[运行时间：0.045713s] [吞吐率：21.88req/s] [内存消耗：1,562.38kb] [文件加载：43]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'register',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b0413b94-7a6f-4fba-885c-202492ccf4de',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------204366206577852397594717',
+  'content-length' => '171',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903501111',
+)
+[ info ] [ RUN ] app\api\controller\Register->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Register.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T09:37:57+08:00 ] 0.0.0.0 POST localhost:8022/public/api/register
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'register',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9dfc692c-ef4e-44be-be7a-b693a306b648',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------966005157997383678877897',
+  'content-length' => '171',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903501111',
+)
+[ info ] [ RUN ] app\api\controller\Register->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Register.php ]
+[ log ] Alidayuset---sms-start
+---------------------------------------------------------------
+[ 2018-12-19T09:37:57+08:00 ] 0.0.0.0 POST localhost:8022/public/api/register
+[运行时间：0.241143s] [吞吐率：4.15req/s] [内存消耗：2,390.41kb] [文件加载：70]
+[ info ] [ CACHE ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T09:38:37+08:00 ] 0.0.0.0 POST localhost:8022/public/api/register
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'register',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '9cdbb273-4304-4177-8699-18817acbb396',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------064136992114887838094659',
+  'content-length' => '171',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+)
+[ info ] [ RUN ] app\api\controller\Register->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Register.php ]
+[ log ] Alidayuset---sms-start
+---------------------------------------------------------------
+[ 2018-12-19T09:38:37+08:00 ] 0.0.0.0 POST localhost:8022/public/api/register
+[运行时间：0.192091s] [吞吐率：5.21req/s] [内存消耗：2,390.41kb] [文件加载：70]
+[ info ] [ CACHE ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T10:39:10+08:00 ] 0.0.0.0 POST localhost:8022/public/api/sendsms
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'register',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ee4c173c-55d3-46eb-898d-3654713e0b65',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------176653417008094319223323',
+  'content-length' => '171',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+)
+[ info ] [ RUN ] app\api\controller\Register->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Register.php ]
+[ log ] Alidayuset---sms-start
+---------------------------------------------------------------
+[ 2018-12-19T10:39:10+08:00 ] 0.0.0.0 POST localhost:8022/public/api/sendsms
+[运行时间：0.322315s] [吞吐率：3.10req/s] [内存消耗：2,391.73kb] [文件加载：70]
+[ info ] [ CACHE ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T10:40:08+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.052780s] [吞吐率：18.95req/s] [内存消耗：2,057.63kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '692df1ff-ef8f-4006-bbce-edfac7522855',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------214155590130917356314830',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '2222',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T10:40:18+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.040045s] [吞吐率：24.97req/s] [内存消耗：2,057.63kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '0d5846dd-7d06-40e8-be14-0008c0654a09',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------007255921101334720842347',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8946',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T10:40:25+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.039924s] [吞吐率：25.05req/s] [内存消耗：2,057.63kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e7ec04c6-21ff-4228-9334-d20ac9d7e0b2',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------229550909362397923109164',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8946',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T10:41:23+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.040164s] [吞吐率：24.90req/s] [内存消耗：2,057.63kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '507d9c49-0164-4c5d-bc13-96a7a0ff1e54',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------025118489936376279872922',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8946',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T10:41:36+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.045688s] [吞吐率：21.89req/s] [内存消耗：2,057.63kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '40f35481-80c6-4232-8133-175204c2ee45',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------449580404488479734802631',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8946',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T10:41:57+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.024404s] [吞吐率：40.98req/s] [内存消耗：1,383.19kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '4f95b3e0-937d-484d-b2c1-a8db44b2ca67',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------286524311717636440370313',
+  'content-length' => '274',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T10:42:01+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.042060s] [吞吐率：23.78req/s] [内存消耗：2,057.63kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '6b2b444a-2910-4979-a2bd-06c7c857b384',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------203456245771524778317142',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => 'd123',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T10:42:18+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.040091s] [吞吐率：24.94req/s] [内存消耗：2,057.63kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ec722f02-0ac2-442f-90e8-647f2cacc653',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------192266209859613513179069',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8946',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:09:07+08:00 ] 0.0.0.0 POST localhost:8022/public/api/sendsms
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'register',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '09e1621f-9d84-4d12-8d0d-079223baedbc',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------866120740316538626293131',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8946',
+)
+[ info ] [ RUN ] app\api\controller\Register->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Register.php ]
+[ log ] Alidayuset---sms-start
+---------------------------------------------------------------
+[ 2018-12-19T11:09:07+08:00 ] 0.0.0.0 POST localhost:8022/public/api/sendsms
+[运行时间：0.330289s] [吞吐率：3.03req/s] [内存消耗：2,391.91kb] [文件加载：70]
+[ info ] [ CACHE ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:10:26+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.044826s] [吞吐率：22.31req/s] [内存消耗：2,057.63kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '538b43f8-dd91-41e3-928c-ad96f40fb133',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------371243035691417755380456',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8946',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:10:34+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.039694s] [吞吐率：25.19req/s] [内存消耗：2,057.63kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bb520fb8-224b-44ad-a7e2-fadb442c2c7d',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------759963174010007904588358',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1135',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:10:37+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.041904s] [吞吐率：23.86req/s] [内存消耗：2,057.63kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'fd4d03c8-a6d8-40c8-99e5-f7dd97ba0540',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------839897514495574823109077',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1135',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:20:59+08:00 ] 0.0.0.0 POST localhost:8022/public/api/sendsms
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'register',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '939e13ee-c96a-49af-9f06-b786c8c4530b',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------605356356256349391479212',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1135',
+)
+[ info ] [ RUN ] app\api\controller\Register->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Register.php ]
+[ log ] Alidayuset---sms-start
+---------------------------------------------------------------
+[ 2018-12-19T11:21:00+08:00 ] 0.0.0.0 POST localhost:8022/public/api/sendsms
+[运行时间：0.306395s] [吞吐率：3.26req/s] [内存消耗：2,390.55kb] [文件加载：70]
+[ info ] [ CACHE ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:21:21+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.047111s] [吞吐率：21.23req/s] [内存消耗：2,056.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '54738814-c172-46aa-a51a-14bd8ad9ea18',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------120488777617178218612412',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1135',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:21:30+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.040273s] [吞吐率：24.83req/s] [内存消耗：2,056.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cbd88ab3-659c-47e6-9547-839daa508549',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------326472219965857016085752',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1486',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:21:38+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.038730s] [吞吐率：25.82req/s] [内存消耗：2,056.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '811afdf5-0ac7-46e0-b2b3-c1a615e6547f',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------099990657331676104632027',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1486',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:21:45+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.041770s] [吞吐率：23.94req/s] [内存消耗：2,056.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '50f90f4d-837b-4dd1-bcd0-498528f60e97',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------995291435995815472037541',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1486',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:21:46+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.040309s] [吞吐率：24.81req/s] [内存消耗：2,056.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '854f33e6-72ef-4f36-aab2-aeb180814d66',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------378183846610177219876145',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1486',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:21:48+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.041134s] [吞吐率：24.31req/s] [内存消耗：2,056.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f2466764-5edc-48d0-83d6-d46a6f6045da',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------805247381182910947737622',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1486',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:21:56+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.038558s] [吞吐率：25.93req/s] [内存消耗：2,056.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '20470ed9-febc-4559-861b-72ca6d1c6eac',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------725191463009514732478409',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1486',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:21:57+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.039047s] [吞吐率：25.61req/s] [内存消耗：2,056.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '84bf9fe8-e55a-4e4b-ab75-0d22f47f0907',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------176254066270409818041558',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1486',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:21:58+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.038707s] [吞吐率：25.84req/s] [内存消耗：2,056.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '454c5ed6-ed52-433a-a451-74389b61fca0',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------448721710355936743777893',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1486',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:21:58+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.038984s] [吞吐率：25.65req/s] [内存消耗：2,056.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'cache-control' => 'no-cache',
+  'postman-token' => '40aa035b-d1ff-49e5-802c-75d970655e96',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-type' => 'multipart/form-data; boundary=--------------------------022155149456114969296850',
+  'content-length' => '278',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1486',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:22:15+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.041458s] [吞吐率：24.12req/s] [内存消耗：2,056.03kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '549f080e-699f-4c4e-8689-9c431c1deb36',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '1486',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:44:19+08:00 ] 0.0.0.0 POST localhost:8022/public/api/sendsms
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'register',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'eea2379b-7bd5-4604-bb66-6a48e21dc540',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '17',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+)
+[ info ] [ RUN ] app\api\controller\Register->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Register.php ]
+[ log ] Alidayuset---sms-start
+---------------------------------------------------------------
+[ 2018-12-19T11:44:19+08:00 ] 0.0.0.0 POST localhost:8022/public/api/sendsms
+[运行时间：0.361731s] [吞吐率：2.76req/s] [内存消耗：2,390.32kb] [文件加载：70]
+[ info ] [ CACHE ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T11:45:11+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.045989s] [吞吐率：21.74req/s] [内存消耗：2,056.03kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '58ab05cc-5bc5-4889-8297-2519babc7cb7',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T12:32:08+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.047585s] [吞吐率：21.02req/s] [内存消耗：2,056.15kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '55f9c262-a6d0-4394-8cff-5d7ff2f3c944',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T12:32:40+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.044908s] [吞吐率：22.27req/s] [内存消耗：2,056.39kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '6c2ed15c-24d5-40fc-b5c0-5d3f08c1f92f',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T12:53:39+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.120867s] [吞吐率：8.27req/s] [内存消耗：2,105.69kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a49b437a-4d7e-41a8-9f20-4a4fd00b7f06',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [0]类不存在:app\common\model\User[D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\library\think\Loader.php:457]
+---------------------------------------------------------------
+[ 2018-12-19T14:04:37+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.048304s] [吞吐率：20.70req/s] [内存消耗：2,056.32kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '264cf58e-bf34-4dc9-81d1-862ad7b5f582',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T14:18:48+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.045478s] [吞吐率：21.99req/s] [内存消耗：2,056.33kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'bd1f998b-e2cd-49b2-94bd-96c3f835e8a5',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T14:36:36+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.045886s] [吞吐率：21.79req/s] [内存消耗：2,056.39kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b22d6131-1769-4206-b7fd-39196004a2af',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T14:37:11+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.074379s] [吞吐率：13.44req/s] [内存消耗：2,101.99kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'c80e8185-9a6f-4d51-a08d-ba7e62889071',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal string offset 'data'[D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php:30]
+---------------------------------------------------------------
+[ 2018-12-19T14:37:50+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.040136s] [吞吐率：24.92req/s] [内存消耗：2,102.66kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '85a3fceb-93f2-4830-8b5d-849fa584f13b',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [8]Use of undefined constant data - assumed 'data'[D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php:30]
+---------------------------------------------------------------
+[ 2018-12-19T14:38:08+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.044306s] [吞吐率：22.57req/s] [内存消耗：2,102.00kb] [文件加载：60]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '82cddfd0-e63f-4151-a311-739096c0434c',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+[ error ] [2]Illegal string offset 'data'[D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php:30]
+---------------------------------------------------------------
+[ 2018-12-19T14:38:28+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.036663s] [吞吐率：27.28req/s] [内存消耗：2,056.39kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '3dd42bdb-26ea-494a-9de9-57fa4b4abd18',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T14:39:00+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.042958s] [吞吐率：23.28req/s] [内存消耗：2,056.32kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd341a2be-52f6-4a98-a109-e85a06463d3c',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T14:39:18+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.044938s] [吞吐率：22.25req/s] [内存消耗：2,056.32kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'a71eef52-f8c0-4de2-8f55-648e8d70d179',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T14:39:39+08:00 ] 0.0.0.0 POST localhost:8022/public/api/sendsms
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'register',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '40f852a3-d03a-4e41-9c38-4516960bfb0d',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Register->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Register.php ]
+[ log ] Alidayuset---sms-start
+---------------------------------------------------------------
+[ 2018-12-19T14:39:40+08:00 ] 0.0.0.0 POST localhost:8022/public/api/sendsms
+[运行时间：0.331435s] [吞吐率：3.02req/s] [内存消耗：2,390.88kb] [文件加载：70]
+[ info ] [ CACHE ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T14:41:57+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.047026s] [吞吐率：21.26req/s] [内存消耗：2,056.32kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'f9580cd2-f7cb-4581-8c79-b6f173ad0e06',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T14:42:30+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.042442s] [吞吐率：23.56req/s] [内存消耗：2,056.34kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '4730eb27-c1eb-48ca-9f4b-1f7c3c0e6e55',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T14:42:38+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.037934s] [吞吐率：26.36req/s] [内存消耗：2,056.49kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'cec002cb-8a2b-4ae6-a98a-61fbbd27df2a',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '7267',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T14:42:56+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.188914s] [吞吐率：5.29req/s] [内存消耗：3,262.41kb] [文件加载：69]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'b804e40a-777b-47dc-b72b-b672b4e84cf6',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8361',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012589s ] mysql:host=127.0.0.1;port=3306;dbname=deepdive_c2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.030920s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`token` , `time_out` , `uname` , `status` , `phone`) VALUES ('4c182945a868f8485404762cec787b1e246dcacf' , 0 , '深潜18903508019' , 1 , '18903508019') [ RunTime:0.046570s ]
+[ error ] [0]类的属性不存在:app\common\model\User->id[D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\library\think\Model.php:624]
+---------------------------------------------------------------
+[ 2018-12-19T14:45:04+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.158383s] [吞吐率：6.31req/s] [内存消耗：3,261.86kb] [文件加载：69]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'abaa2b01-b060-4609-b171-75d79e4907a8',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8361',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011922s ] mysql:host=127.0.0.1;port=3306;dbname=deepdive_c2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.017367s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`token` , `time_out` , `uname` , `status` , `phone`) VALUES ('7a0b31f86ac597f73788177cabfc8c140b0f9eaa' , 1552977904 , '深潜18903508019' , 1 , '18903508019') [ RunTime:0.048359s ]
+[ error ] [0]类的属性不存在:app\common\model\User->id[D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\library\think\Model.php:624]
+---------------------------------------------------------------
+[ 2018-12-19T14:45:57+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.105526s] [吞吐率：9.48req/s] [内存消耗：3,261.86kb] [文件加载：69]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '613b9822-2b03-416e-84ae-ddf2715d1f1b',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8361',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002556s ] mysql:host=127.0.0.1;port=3306;dbname=deepdive_c2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016072s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`token` , `time_out` , `uname` , `status` , `phone`) VALUES ('f42e51f1e4b69cee08393aacbf5f2fddd398cf28' , 1552977957 , '深潜18903508019' , 1 , '18903508019') [ RunTime:0.024089s ]
+[ error ] [0]类的属性不存在:app\common\model\User->id[D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\library\think\Model.php:624]
+---------------------------------------------------------------
+[ 2018-12-19T15:02:22+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.061999s] [吞吐率：16.13req/s] [内存消耗：3,177.28kb] [文件加载：68]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '844bba8f-11a1-43a7-a2cb-e77ca37be040',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8361',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ error ] [0]method not exist:think\db\Query->add[D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\library\think\db\Query.php:96]
+---------------------------------------------------------------
+[ 2018-12-19T15:03:19+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.080835s] [吞吐率：12.37req/s] [内存消耗：3,271.46kb] [文件加载：70]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'ec1ea388-f372-4b96-9c28-96f642ce296a',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8361',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002353s ] mysql:host=127.0.0.1;port=3306;dbname=deepdive_c2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.017240s ]
+[ error ] [0]数据表字段不存在:[create_time][D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2018-12-19T15:04:39+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.094524s] [吞吐率：10.58req/s] [内存消耗：3,271.45kb] [文件加载：70]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0fce9ee1-cf23-4191-a6d2-622855c99d7f',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8361',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012247s ] mysql:host=127.0.0.1;port=3306;dbname=deepdive_c2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016646s ]
+[ error ] [0]数据表字段不存在:[create_time][D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\library\think\db\Builder.php:115]
+---------------------------------------------------------------
+[ 2018-12-19T15:04:51+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.109670s] [吞吐率：9.12req/s] [内存消耗：3,230.52kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'e00729d8-20bb-4ae6-96b8-626cbe55c469',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8361',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.012115s ] mysql:host=127.0.0.1;port=3306;dbname=deepdive_c2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016579s ]
+[ sql ] [ SQL ] INSERT INTO `user` (`token` , `time_out` , `uname` , `status` , `phone` , `create_time` , `update_time`) VALUES ('5807ead11168828cc691d5ee721ecb7b845b79de' , 1552979091 , '深潜18903508019' , 1 , '18903508019' , 1545203091 , 1545203091) [ RunTime:0.027441s ]
+---------------------------------------------------------------
+[ 2018-12-19T15:21:00+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.088540s] [吞吐率：11.29req/s] [内存消耗：3,221.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '5e547513-5c1b-46a3-b63e-ca723b9e5443',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8361',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002336s ] mysql:host=127.0.0.1;port=3306;dbname=deepdive_c2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.019310s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `phone` = '18903508019' LIMIT 1 [ RunTime:0.000470s ]
+---------------------------------------------------------------
+[ 2018-12-19T15:21:39+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.042413s] [吞吐率：23.58req/s] [内存消耗：2,056.83kb] [文件加载：56]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '94ba1c69-156a-4fbb-a87e-6038591374f1',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508011',
+  'code' => '8361',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-12-19T15:21:48+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.088027s] [吞吐率：11.36req/s] [内存消耗：3,221.41kb] [文件加载：66]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '8fd21bfe-89b9-4371-9f19-8b0d18947ee4',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8361',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011879s ] mysql:host=127.0.0.1;port=3306;dbname=deepdive_c2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.018833s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `phone` = '18903508019' LIMIT 1 [ RunTime:0.000504s ]
+---------------------------------------------------------------
+[ 2018-12-19T15:47:37+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.140480s] [吞吐率：7.12req/s] [内存消耗：3,238.51kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '51d57e13-9670-4283-842a-678dd160fb10',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8361',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002297s ] mysql:host=127.0.0.1;port=3306;dbname=deepdive_c2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.016538s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `phone` = '18903508019' LIMIT 1 [ RunTime:0.000502s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `token`='6164856cd4eae6fba35a5fab173b7627c941ed21',`time_out`=1552981657,`update_time`=1545205657  WHERE  `phone` = '18903508019' [ RunTime:0.045015s ]
+---------------------------------------------------------------
+[ 2018-12-19T15:48:09+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.115558s] [吞吐率：8.65req/s] [内存消耗：3,238.51kb] [文件加载：67]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => '1c9bc8d1-ece2-4d99-95f1-90cafab257e0',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '27',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '8361',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ CACHE ] INIT File
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.011692s ] mysql:host=127.0.0.1;port=3306;dbname=deepdive_c2;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.017178s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `phone` = '18903508019' LIMIT 1 [ RunTime:0.000440s ]
+[ sql ] [ SQL ] UPDATE `user`  SET `token`='93dc2375edbf7c604deedfd2f4936347a842136f',`time_out`=1552981689,`update_time`=1545205689  WHERE  `phone` = '18903508019' [ RunTime:0.026279s ]
+---------------------------------------------------------------
+[ 2018-12-19T15:51:03+08:00 ] 0.0.0.0 POST localhost:8022/public/api/login
+[运行时间：0.028169s] [吞吐率：35.50req/s] [内存消耗：1,387.49kb] [文件加载：41]
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinkphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'login',
+    2 => 'save',
+  ),
+  'convert' => false,
+)
+[ info ] [ HEADER ] array (
+  'content-type' => 'application/x-www-form-urlencoded',
+  'cache-control' => 'no-cache',
+  'postman-token' => 'd8b90e4b-57f9-430c-a0b6-9867c8c11d72',
+  'user-agent' => 'PostmanRuntime/7.4.0',
+  'accept' => '*/*',
+  'host' => 'localhost:8022',
+  'accept-encoding' => 'gzip, deflate',
+  'content-length' => '37',
+  'connection' => 'keep-alive',
+)
+[ info ] [ PARAM ] array (
+  'phone' => '18903508019',
+  'code' => '',
+  'password' => '1234',
+)
+[ info ] [ RUN ] app\api\controller\Login->save[ D:\phpStudy\PHPTutorial\WWW\thinkphp\application\api\controller\Login.php ]
+[ info ] [ LOG ] INIT File

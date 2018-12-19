@@ -6,5 +6,5 @@
  * Time: 0:12
  */
 return [
-    'identify_time' => 600,
+    'identify_time' => 6000,
 ];

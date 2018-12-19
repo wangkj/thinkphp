@@ -1,0 +1,35 @@
+---------------------------------------------------------------
+[ 2018-12-18T02:06:31+08:00 ] 0.0.0.0 GET localhost:8011/api/test/testsend
+[ info ] [ LANG ] D:\phpStudy\PHPTutorial\WWW\thinphp\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'api',
+    1 => 'test',
+    2 => 'testsend',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost:8011',
+  'connection' => 'keep-alive',
+  'model' => 'sanxing',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36',
+  'did' => '123dsa',
+  'app_type' => 'ios',
+  'cache-control' => 'no-cache',
+  'postman-token' => '0c8ccee0-e696-481d-0d18-4655d883ced7',
+  'sign' => 'oGli3JlDJrPHxY+rfdDHLCwpkUFiJ6XXke6LgwYuD3++DK2NLx4v2zydXpMS9mLW',
+  'version' => '1',
+  'accept' => '*/*',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9,en;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\api\controller\Test->testsend[ D:\phpStudy\PHPTutorial\WWW\thinphp\application\api\controller\Test.php ]
+[ log ] Alidayuset---sms-start
+---------------------------------------------------------------
+[ 2018-12-18T02:06:31+08:00 ] 0.0.0.0 GET localhost:8011/api/test/testsend
+[运行时间：0.291520s] [吞吐率：3.43req/s] [内存消耗：2,196.98kb] [文件加载：67]
+[ info ] [ CACHE ] INIT File
